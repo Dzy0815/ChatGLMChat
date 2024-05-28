@@ -9,6 +9,9 @@
       <li>
         <router-link id="Chat" to="/Chat">多组对话</router-link>
       </li>
+      <li>
+        <router-link id="Tools" to="/Tools">调用工具</router-link>
+      </li>
     </ul>
   </div>
 </template>

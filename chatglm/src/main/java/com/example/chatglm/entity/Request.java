@@ -1,10 +1,11 @@
 package com.example.chatglm.entity;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 
-@Component
+@Repository
 public class Request {
     private double temperature = 1.1;
     private double presence_penalty=1.1;
