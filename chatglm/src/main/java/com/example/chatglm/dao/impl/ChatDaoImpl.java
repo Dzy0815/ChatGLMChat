@@ -68,7 +68,6 @@ public class ChatDaoImpl implements ChatDao {
             }
         }
         result = new StringBuilder("{\"result\":\""+result+"\"}");
-        System.out.println(result);
         JsonNode jsonNode = mapper.readTree(result.toString());
         return jsonNode.toString();
     }
